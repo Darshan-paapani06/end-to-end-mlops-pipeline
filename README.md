@@ -12,6 +12,8 @@ A production-style MLOps project that takes a customer churn model from experime
 > **Portfolio positioning:** This project demonstrates that a model is not finished after training. It must be versioned, tested, containerized, served, monitored, and continuously improved.
 
 ---
+<img width="940" height="533" alt="Screenshot 2026-07-03 072118" src="https://github.com/user-attachments/assets/d4f7b651-2a10-4a56-846e-f80fd656eb63" />
+<img width="1358" height="560" alt="Screenshot 2026-07-03 072102" src="https://github.com/user-attachments/assets/0a2bfdc0-4dd9-456f-8e85-98489e8ff010" />
 
 ## Executive Summary
 
