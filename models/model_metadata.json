@@ -1,0 +1,27 @@
+{
+  "model_name": "customer_churn_classifier",
+  "model_type": "random_forest",
+  "model_path": "models\\churn_pipeline.joblib",
+  "threshold": 0.2,
+  "metrics": {
+    "accuracy": 0.46,
+    "precision": 0.449,
+    "recall": 1.0,
+    "f1": 0.6197,
+    "roc_auc": 0.7338,
+    "threshold": 0.2
+  },
+  "training_rows": 250,
+  "features": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "support_calls_last_90d",
+    "late_payments_last_12m",
+    "contract_type",
+    "internet_service",
+    "payment_method"
+  ],
+  "mlflow_run_id": "c754d400af5f499f913b390c6c7ac6f0",
+  "saved_at_utc": "2026-07-03T01:47:29.936360+00:00"
+}

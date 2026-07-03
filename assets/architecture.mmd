@@ -1,0 +1,11 @@
+flowchart LR
+    A[Raw customer data] --> B[Feature validation]
+    B --> C[Training pipeline]
+    C --> D[MLflow experiment tracking]
+    C --> E[Model artifact]
+    E --> F[FastAPI model service]
+    F --> G[Prediction logs]
+    G --> H[Monitoring dashboard]
+    F --> I[Prometheus metrics endpoint]
+    J[GitHub Actions CI/CD] --> K[Tests + Docker build]
+    K --> L[Cloud deployment target]

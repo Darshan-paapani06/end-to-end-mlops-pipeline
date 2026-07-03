@@ -1,0 +1,11 @@
+flowchart TD
+    A[Experiment] --> B[Track runs in MLflow]
+    B --> C[Select model]
+    C --> D[Package model + API]
+    D --> E[Test in CI]
+    E --> F[Build Docker image]
+    F --> G[Deploy]
+    G --> H[Monitor predictions]
+    H --> I{Data drift?}
+    I -- No --> H
+    I -- Yes --> A

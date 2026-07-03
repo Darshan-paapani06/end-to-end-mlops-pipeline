@@ -1,0 +1,13 @@
+customer_id,tenure_months,monthly_charges,total_charges,contract_type,internet_service,payment_method,support_calls_last_90d,late_payments_last_12m
+CUST-10089,26,90.05,2372.75,Month-to-month,DSL,Electronic check,2,0
+CUST-10091,35,71.26,2499.34,One year,Fiber optic,Bank transfer,0,0
+CUST-10093,25,93.2,2407.74,One year,Fiber optic,Electronic check,2,0
+CUST-10224,37,100.38,3707.37,Month-to-month,Fiber optic,Mailed check,2,1
+CUST-10126,56,64.11,3634.74,Two year,Fiber optic,Mailed check,1,0
+CUST-10241,2,63.15,107.06,Two year,Fiber optic,Electronic check,0,1
+CUST-10231,12,67.76,779.35,Month-to-month,Fiber optic,Credit card,0,2
+CUST-10030,15,102.11,1531.51,One year,No,Credit card,2,0
+CUST-10035,47,95.72,4496.38,Two year,DSL,Credit card,1,0
+CUST-10139,47,71.59,3312.17,Two year,Fiber optic,Electronic check,3,0
+CUST-10010,29,77.44,2254.07,Month-to-month,Fiber optic,Bank transfer,2,2
+CUST-10249,21,83.05,1725.48,Two year,No,Bank transfer,2,0

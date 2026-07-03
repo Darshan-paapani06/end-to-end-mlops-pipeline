@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: churn-mlops-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: churn-mlops-api
+  template:
+    metadata:
+      labels:
+        app: churn-mlops-api
+    spec:
+      containers:
+        - name: churn-mlops-api
+          image: your-dockerhub-username/mlops-churn-api:latest
+          ports:
+            - containerPort: 8000
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: churn-mlops-api-service
+spec:
+  selector:
+    app: churn-mlops-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: LoadBalancer

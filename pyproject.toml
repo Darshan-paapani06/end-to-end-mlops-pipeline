@@ -1,0 +1,14 @@
+[project]
+name = "end-to-end-mlops-pipeline"
+version = "1.0.0"
+description = "Production-style MLOps pipeline with FastAPI, Docker, GitHub Actions, MLflow tracking, and model monitoring."
+authors = [{ name = "Darshan Paapani" }]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+src = ["api", "src", "tests"]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="360" viewBox="0 0 1150 360">
+  <defs>
+    <style>
+      .bg{fill:#f8fafc}.node{fill:#fff;stroke:#2563eb;stroke-width:2;rx:16}.text{font-family:Arial,sans-serif;font-size:15px;fill:#111827;font-weight:600}.sub{font-family:Arial,sans-serif;font-size:12px;fill:#475569}.path{stroke:#94a3b8;stroke-width:4;fill:none}.dot{fill:#f97316}.title{font-family:Arial,sans-serif;font-size:24px;font-weight:700;fill:#111827}
+    </style>
+  </defs>
+  <rect class="bg" width="1150" height="360"/>
+  <text x="40" y="45" class="title">Animated MLOps Lifecycle: From Experiment to Monitoring</text>
+  <path id="track" class="path" d="M95 180 H260 H425 H590 H755 H920 C1000 180 1000 80 920 80 H260 C180 80 95 105 95 180"/>
+  <circle r="11" class="dot">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#track"/></animateMotion>
+  </circle>
+
+  <rect x="45" y="135" width="120" height="72" class="node"/><text x="72" y="166" class="text">1. Data</text><text x="67" y="188" class="sub">validated input</text>
+  <rect x="210" y="135" width="120" height="72" class="node"/><text x="231" y="166" class="text">2. Train</text><text x="231" y="188" class="sub">pipeline fit</text>
+  <rect x="375" y="135" width="120" height="72" class="node"/><text x="391" y="166" class="text">3. Track</text><text x="389" y="188" class="sub">MLflow runs</text>
+  <rect x="540" y="135" width="120" height="72" class="node"/><text x="560" y="166" class="text">4. Serve</text><text x="558" y="188" class="sub">FastAPI</text>
+  <rect x="705" y="135" width="120" height="72" class="node"/><text x="730" y="166" class="text">5. CI/CD</text><text x="727" y="188" class="sub">test + build</text>
+  <rect x="870" y="135" width="120" height="72" class="node"/><text x="889" y="166" class="text">6. Deploy</text><text x="895" y="188" class="sub">cloud target</text>
+  <rect x="705" y="45" width="150" height="72" class="node"/><text x="730" y="76" class="text">7. Monitor</text><text x="726" y="98" class="sub">logs + drift + metrics</text>
+  <rect x="375" y="45" width="150" height="72" class="node"/><text x="400" y="76" class="text">8. Retrain</text><text x="397" y="98" class="sub">feedback loop</text>
+</svg>

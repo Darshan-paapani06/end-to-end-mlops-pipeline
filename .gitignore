@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Data/model runtime outputs
+mlruns/
+logs/
+reports/*.csv
+models/*.joblib
+models/*.pkl
+models/*.onnx
+monitoring/*.jsonl
+monitoring/*.csv
+
+# Keep placeholders
+!models/.gitkeep
+!monitoring/.gitkeep
+!reports/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
