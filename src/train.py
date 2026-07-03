@@ -4,7 +4,6 @@ import argparse
 import json
 from pathlib import Path
 
-import pandas as pd
 from sklearn.model_selection import train_test_split
 
 from src.config import MLFLOW_EXPERIMENT_NAME, MLFLOW_TRACKING_URI, MODEL_NAME, MODEL_PATH, TARGET_COLUMN
